@@ -1,0 +1,4286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Waring List Level 1~7"</Description>
+      <LastState Activated="1"/>
+      <Color>134FEC</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//00901000~00A01000 영역 파괴 Error 6
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"연동 도메인 리스트"</Description>
+      <LastState Activated="1"/>
+      <Color>134FEC</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+/*
+  libdonwload.kro.kr
+*/
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>196</ID>
+      <Description>"SQL명령어 리스트"</Description>
+      <LastState Activated="1"/>
+      <Color>134FEC</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+/*UPDATE `orionalpha`.`character` SET `CharacterName`='332223' WHERE `CharacterID`='2';*/
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>193</ID>
+      <Description>"Lib"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(GetModules,00403098)
+Registersymbol(GetModules)
+define(GProc,00403108)
+Registersymbol(GProc)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"DefineValeSymbol"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+Define(SetME,50)
+Registersymbol(SetMe)
+Define(INFI,7D2B7500)//2100000000
+Registersymbol(INFI)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"iatList"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(filea,KERNEL32.CreateFileA)
+Registersymbol(filea)
+define(wirte,KERNEL32.WriteFile)
+Registersymbol(wirte)
+define(CloseH,KERNEL32.CloseHandle)
+Registersymbol(CloseH)
+define(findx,KERNEL32.FindFirstFileA)
+Registersymbol(findx)
+define(fnext,KERNEL32.FindNextFileA)
+Registersymbol(fnext)
+define(fcloseh,KERNEL32.FindClose)
+Registersymbol(fcloseh)
+
+define(loaddllx,KERNEL32.loadlibrarya)
+Registersymbol(loaddllx)
+//KERNEL32.CloseHandle
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"API(00451000~00541000)"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(mainx,00451000)
+Registersymbol(mainx)
+
+define(sizegetx,mainx+1000)
+Registersymbol(sizegetx)
+define(SleepX,mainx+2000)
+Registersymbol(SleepX)
+define(PointerACC1,mainx+3000)
+Registersymbol(PointerACC1)
+define(debuga,mainx+4000)
+Registersymbol(debuga)
+
+
+define(WontimeCode,mainx+5000)
+Registersymbol(WontimeCode)//4000 ValueaddDe
+
+
+
+define(ThreadLackAC,mainx+9000)
+Registersymbol(ThreadLackAC)
+define(IateGateAC,mainx+A000)
+Registersymbol(IateGateAC)//4000 ValueaddDe
+
+
+define(coresub,mainx+B000)
+Registersymbol(coresub)//4000 ValueaddDe
+
+define(IATFilea,mainx+C000)
+Registersymbol(IATFilea)//4000 ValueaddDe
+
+define(scoektDe,mainx+D000)
+Registersymbol(scoektDe)//4000 ValueaddDe
+
+
+////Start
+define(MemoryLoadAPi,mainx+10000)
+Registersymbol(MemoryLoadAPi)//4000 ValueaddDe
+
+
+define(Debug,mainx+10000)
+Registersymbol(Debug)//4000 ValueaddDe
+
+
+
+
+
+
+
+
+
+
+
+
+define(MainStart,004FF000)
+Registersymbol(MainStart)
+
+
+define(MainThread,00500000)
+Registersymbol(MainThread)
+
+
+
+
+define(debugapi,00501000)
+Registersymbol(debugapi)
+
+define(MemSetX,debugapi+1000)
+Registersymbol(MemSetX)
+
+define(Z_Thread_System,debugapi+2000)
+Registersymbol(Z_Thread_System)
+
+define(MainThreadStart,debugapi+3000)
+Registersymbol(MainThreadStart)
+
+
+define(StartThreadSocket1,debugapi+4000)
+Registersymbol(StartThreadSocket1)
+
+define(StartThreadSocket2,debugapi+4500)
+Registersymbol(StartThreadSocket2)
+
+define(StartThreadArtPlate,debugapi+4800)
+Registersymbol(StartThreadArtPlate)
+
+define(SocketMain,debugapi+5000)
+Registersymbol(SocketMain)
+
+define(BigPointerApi,debugapi+6000)
+Registersymbol(BigPointerApi)
+
+define(acceptapi,debugapi+7000)
+Registersymbol(acceptapi)
+
+define(HalfThread_System,debugapi+8000)
+Registersymbol(HalfThread_System)
+
+
+
+define(Sub_Start_Accept,debugapi+9000)
+Registersymbol(Sub_Start_Accept)
+
+define(StartArtPlate,debugapi+A000)
+Registersymbol(StartArtPlate)
+
+
+define(DumpLoad,debugapi+B000) //터지기일수
+Registersymbol(DumpLoad)
+
+define(Dump_System,debugapi+C000) //터지기일수
+Registersymbol(Dump_System)
+
+define(Null_UnSum,debugapi+D000) //터지기일수
+Registersymbol(Null_UnSum)
+
+define(Iat_SystemX,debugapi+E000) //터지기일수
+Registersymbol(Iat_SystemX)
+
+define(BigPo_X,debugapi+F000) //터지기일수
+Registersymbol(BigPo_X)
+
+define(StartBigPo,debugapi+10000) //터지기일수
+Registersymbol(StartBigPo)
+
+define(RWXAPI,debugapi+11000) //터지기일수
+Registersymbol(RWXAPI)
+
+define(StartOllyDbg,debugapi+12000) //터지기일수
+Registersymbol(StartOllyDbg)
+
+define(TwelveMetaAC,debugapi+13000) //터지기일수
+Registersymbol(TwelveMetaAC)
+
+define(IatGateDllAC,debugapi+14000) //터지기일수
+Registersymbol(IatGateDllAC)
+
+define(StartIatGate_System,debugapi+15000) //터지기일수
+Registersymbol(StartIatGate_System)
+//StartIatGate_System
+
+define(Mult_Pa,debugapi+16000) //터지기일수
+Registersymbol(Mult_Pa)
+define(Start_Mult_Passer,debugapi+17000) //터지기일수
+Registersymbol(Start_Mult_Passer)
+define(WinnetDBVM,debugapi+18000) //터지기일수
+Registersymbol(WinnetDBVM)
+
+define(Start_Mult_Passer_html,debugapi+19000) //터지기일수
+Registersymbol(Start_Mult_Passer_html)
+
+define(SqlMain_X,debugapi+1A000) //터지기일수
+Registersymbol(SqlMain_X)
+define(SqlMain_X_Start,debugapi+1B000) //터지기일수
+Registersymbol(SqlMain_X_Start)
+//WinnetDBVM
+//FileNameGetX
+
+define(FileNameGetX,debugapi+1C000) //터지기일수
+Registersymbol(FileNameGetX)
+
+define(HTMLUpdater,debugapi+1D000) //터지기일수
+Registersymbol(HTMLUpdater)
+
+define(HTMLUpdater_Start,debugapi+1E000) //터지기일수
+Registersymbol(HTMLUpdater_Start)
+//Start_Mult_Passer
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"satic 문자열 00F01000~01201000 meta::IATGate"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+Define(staticmain,00F01000)
+Registersymbol(staticmain)
+
+define(dataget,staticmain+40)//50byte
+Registersymbol(dataget)//50byte
+
+define(acPath,staticmain+80)//50byte
+Registersymbol(acPath)//50byte
+
+define(countdbvmx,staticmain+E0)//50byte
+Registersymbol(countdbvmx)//50byte
+
+define(nullp,staticmain+120)//50byte
+Registersymbol(nullp)//50byte
+
+
+define(Error41,staticmain+160)//50byte
+Registersymbol(Error41)//50byte
+
+define(LoadMemoryPath,staticmain-1F0)
+Registersymbol(LoadMemoryPath)
+
+define(LoadMemoryPath2,staticmain-2F0)
+Registersymbol(LoadMemoryPath2)
+
+
+define(IATGate,Error41+SetMe)//예측 착탄점 00F011B0
+Registersymbol(IATGate)
+
+//+10000
+define(DLLList,IATGate+10000)//예측 착탄점 00F011B0+50
+Registersymbol(DLLList)
+
+define(ShortMetaDLL,IATGate+20000) //size 100000 big
+Registersymbol(ShortMetaDLL)
+
+define(crefileList,IATGate+30000) //iatfileName
+Registersymbol(crefileList)
+
+define(SocketMeta,IATGate+31000) //iatfileName
+Registersymbol(SocketMeta)
+
+
+define(LoadName,IATGate+32000) //iatfileName
+Registersymbol(LoadName)
+
+define(SaveFileName,IATGate+32700) //iatfileName
+Registersymbol(SaveFileName)
+
+define(Web0A,IATGate+33700) //Web0A
+Registersymbol(Web0A)
+
+
+define(FixFile,IATGate+35F00) //FixFile
+Registersymbol(FixFile)
+
+define(DownMainConPath,IATGate+36F00) //FixFile
+Registersymbol(DownMainConPath)
+
+define(UTRLT,IATGate+37100) //FixFile
+Registersymbol(UTRLT)
+
+define(URLLI1,IATGate+37200) //FixFile
+Registersymbol(URLLI1)
+
+define(GetMata,IATGate+37300) //FixFile Len 8
+Registersymbol(GetMata)
+
+define(SQLIDX,IATGate+37800) //FixFile Len 81
+Registersymbol(SQLIDX)
+
+define(SQLAPssowrdX,IATGate+37830) //FixFile Len 81
+Registersymbol(SQLAPssowrdX)
+
+define(SQLIPX,IATGate+3770) //FixFile Len 81
+Registersymbol(SQLIPX)
+
+//SQLIPX
+
+
+define(SqlCommandLine,IATGate+38000) //FixFile Len 8
+Registersymbol(SqlCommandLine)
+
+//DownMainConPath
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"Arr List  01301000~01401000_Type 4byte"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(Arrmain,01301000)
+Registersymbol(Arrmain)
+define(sizes,Arrmain+4)
+Registersymbol(sizes)
+
+define(filehandles,Arrmain+8)
+Registersymbol(filehandles)
+
+define(countX2,Arrmain+c)
+Registersymbol(countX2)
+
+define(countX3,Arrmain+10)
+Registersymbol(countX3)
+
+define(Arr1,Arrmain+14)
+Registersymbol(Arr1)
+
+define(fileH,Arrmain+18)
+Registersymbol(fileH)
+
+define(skt,Arrmain+1C)
+Registersymbol(skt)
+
+define(portdbvm,Arrmain+20)
+Registersymbol(portdbvm)
+
+define(IATCount,Arrmain+90000)
+Registersymbol(IATCount)
+
+//IATgatge 예측: 01301000+1000 ~5000
+define(IatGateAD,Arrmain+1000)
+Registersymbol(IatGateAD)
+
+//배열 공간 240
+
+define(LoadMemoryStatus,Arrmain+1550)
+Registersymbol(LoadMemoryStatus)
+
+
+
+define(LoadMemoryStatus2,Arrmain+1750)
+Registersymbol(LoadMemoryStatus2)
+
+//TwelveMetaStatus1
+
+define(TwelveMetaStatus1,Arrmain+1950)
+Registersymbol(TwelveMetaStatus1)
+
+define(TwelveMetaStatus2,Arrmain+1950)
+Registersymbol(TwelveMetaStatus2)
+
+define(TwelveMetaStatus3,Arrmain+1A50)
+Registersymbol(TwelveMetaStatus3)
+
+define(TwelveMetaStatus4,Arrmain+1C50)
+Registersymbol(TwelveMetaStatus4)
+
+define(TwelveMetaStatus5,Arrmain+1E50)
+Registersymbol(TwelveMetaStatus5)
+
+
+define(TwelveMetaStatus6,Arrmain+1E50)
+Registersymbol(TwelveMetaStatus6)
+
+define(TwelveMetaStatus7,Arrmain+2050)
+Registersymbol(TwelveMetaStatus7)
+
+define(TwelveMetaStatus8,Arrmain+2250)
+Registersymbol(TwelveMetaStatus8)
+
+define(TwelveMetaStatus9,Arrmain+2250)
+Registersymbol(TwelveMetaStatus9)
+
+define(TwelveMetaStatus10,Arrmain+2450)
+Registersymbol(TwelveMetaStatus10)
+
+define(TwelveMetaStatus11,Arrmain+2650)
+Registersymbol(TwelveMetaStatus11)
+
+define(TwelveMetaStatus12,Arrmain+2850)
+Registersymbol(TwelveMetaStatus12)
+
+
+
+
+
+//path 1500
+
+
+
+
+
+//Len 6000
+define(ArrIatAdd,Arrmain+6000)
+Registersymbol(ArrIatAdd)
+
+define(TwelveArrAddress,Arrmain+12000)
+Registersymbol(TwelveArrAddress)
+
+//Len 1000
+define(savedata,Arrmain+22000)
+Registersymbol(savedata)
+
+//Len Oobject size 1024
+
+define(SqlOobject,Arrmain+28000)
+Registersymbol(SqlOobject)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"Pointer 01401000~01501000"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(Pointermain,01400000)
+Registersymbol(Pointermain)
+define(pathdata,01480000)
+Registersymbol(pathdata)
+define(Poin1,Pointermain+4)
+Registersymbol(Poin1)
+
+define(Poin2,Pointermain+8) //ArrPointer
+Registersymbol(Poin2) //ArrPointer
+define(Poin3,Pointermain+c)
+Registersymbol(Poin3)
+define(Poin4,Pointermain+10)
+Registersymbol(Poin4)
+define(Poin5,Pointermain+14)
+Registersymbol(Poin5)
+define(Poin6,Pointermain+18)
+Registersymbol(Poin6)
+
+define(IatSUM,Pointermain+1C)
+Registersymbol(IatSUM)
+
+//Big P 00051000 4byte
+define(BigPointer,Pointermain+20)
+Registersymbol(BigPointer)
+define(TwelveMetaPointer,Pointermain+24)
+Registersymbol(TwelveMetaPointer)
+
+
+
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"변수 저장소 01501000~01601000 dll count"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(mainval,01501000)
+Registersymbol(mainval)
+define(static1,mainval+4)
+Registersymbol(static1)
+define(closeCount,mainval+8)
+Registersymbol(closeCount)
+define(countw1,mainval+c)
+Registersymbol(countw1)
+
+define(countw2,mainval+10)
+Registersymbol(countw2)
+
+define(ThreadLack,mainval+14)
+Registersymbol(ThreadLack)
+define(dllPointer,mainval+18)
+Registersymbol(dllPointer)
+define(DebugdllCount,mainval+1C)
+Registersymbol(DebugdllCount)
+define(DebugdllCount2,mainval+20)
+Registersymbol(DebugdllCount2)
+
+///////////start CreateMemory
+
+define(Inter,mainval+24)
+Registersymbol(Inter)
+
+define(Z_Count,mainval+28)
+Registersymbol(Z_Count)
+
+define(SocketPort,mainval+2C)
+Registersymbol(SocketPort)
+
+define(DebugCount,mainval+30)
+Registersymbol(DebugCount)
+
+define(mallocSize,mainval+34)
+Registersymbol(mallocSize)
+
+define(DebugCount2,mainval+38)
+Registersymbol(DebugCount2)
+
+define(MainCashDiskH,mainval+3C)
+Registersymbol(MainCashDiskH)
+define(MainCashCashingH,mainval+40)
+Registersymbol(MainCashCashingH)
+
+
+define(ValueX,mainval+44)
+Registersymbol(ValueX)
+
+define(VerX,mainval+48)
+Registersymbol(VerX)
+
+define(bigpointerStartCount,mainval+4C)
+Registersymbol(bigpointerStartCount)
+
+define(MainCashDiskH2,mainval+50)
+Registersymbol(MainCashDiskH2)
+
+define(Option,mainval+54)
+Registersymbol(Option)
+
+define(termiAddress,mainval+58)
+Registersymbol(termiAddress)
+
+define(GetSize,mainval+15C)
+Registersymbol(GetSize)
+
+define(type32,mainval+60)
+Registersymbol(type32)
+define(type47,mainval+64)
+Registersymbol(type47)
+define(WinnetH1,mainval+68)
+Registersymbol(WinnetH1)
+define(WinnetH2,mainval+68)
+Registersymbol(WinnetH2)
+define(WinnetH3,mainval+6C)
+Registersymbol(WinnetH3)
+
+
+define(Sqlportx,mainval+70)
+Registersymbol(Sqlportx)
+
+
+define(filehPointer,mainval+74)
+Registersymbol(filehPointer)
+
+define(DownPath,mainval+78)
+Registersymbol(DownPath)
+
+define(DownCountX,mainval+78)
+Registersymbol(DownCountX)
+//debugcount
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"DataBaseSaveDump 01701000~02410000"</Description>
+      <LastState Activated="1"/>
+      <Color>40FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+define(DataBaseSaveDump,01701000)
+Registersymbol(DataBaseSaveDump)
+
+
+//debugcount
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"IatGateMeta"</Description>
+      <LastState Activated="1"/>
+      <Color>FF00FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+IATGate:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL:
+db 'Sleep' 00 00
+
+IATGate+20:
+db 'msvcrt.dll' 00 00
+ShortMetaDLL+20:
+db 'printf' 00 00
+
+IATGate+40:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+40:
+db 'FindFirstFileA' 00 00
+
+IATGate+60:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+60:
+db 'FindClose' 00 00
+
+IATGate+80:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+80:
+db 'CreateFileA' 00 00
+
+
+IATGate+A0:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+A0:
+db 'ReadFile' 00 00
+
+//CloseHandle
+
+IATGate+C0:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+C0:
+db 'CloseHandle' 00 00
+
+IATGate+E0:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+E0:
+db 'CreateThread' 00 00
+
+IATGate+100:
+db 'KERNEL32.DLL' 00 00
+ShortMetaDLL+100:
+db 'WriteFile' 00 00
+
+IATGate+120:
+db 'ucrtbase.dll' 00 00
+ShortMetaDLL+120:
+db 'malloc' 00 00
+//Socket Address
+
+
+IATGate+140:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+140:
+db 'WSAStartup' 00 00
+
+IATGate+160:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+160:
+db 'socket' 00 00
+
+IATGate+180:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+180:
+db 'htons' 00 00
+
+
+IATGate+1A0:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+1A0:
+db 'htonl' 00 00
+
+//CloseHandle
+
+IATGate+1C0:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+1C0:
+db 'bind' 00 00
+
+IATGate+1E0:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+1E0:
+db 'listen' 00 00
+
+IATGate+200:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+200:
+db 'recv' 00 00
+
+IATGate+220:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+220:
+db 'send' 00 00
+
+IATGate+240:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+240:
+db 'closesocket' 00 00
+
+IATGate+260:
+db 'WS2_32.dll' 00 00
+ShortMetaDLL+260:
+db 'accept' 00 00
+
+
+
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"IatGateMeta"</Description>
+      <LastState Activated="1"/>
+      <Color>FF00FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+define(SleepX,ArrIatAdd)
+Registersymbol(SleepX)
+define(printfX,ArrIatAdd+4)
+Registersymbol(printfX)
+define(FindFirstFileAX,ArrIatAdd+8)
+Registersymbol(FindFirstFileAX)
+
+define(FindCloseX,ArrIatAdd+C)
+Registersymbol(FindCloseX)
+define(CreateFileAX,ArrIatAdd+10)
+Registersymbol(CreateFileAX)
+
+define(ReadFileX,ArrIatAdd+14)
+Registersymbol(ReadFileX)
+
+define(CloseHandleX,ArrIatAdd+18)
+Registersymbol(CloseHandleX)
+define(CreateThreadX,ArrIatAdd+1C)
+Registersymbol(CreateThreadX)
+
+define(WriteFileX,ArrIatAdd+20)
+Registersymbol(WriteFileX)
+define(mallocX,ArrIatAdd+24)
+Registersymbol(mallocX)
+
+define(WSAStartupX,ArrIatAdd+28)
+Registersymbol(WSAStartupX)
+
+define(socketX,ArrIatAdd+2C)
+Registersymbol(socketX)
+
+define(htonsX,ArrIatAdd+30)
+Registersymbol(htonsX)
+
+define(ntohlX,ArrIatAdd+34)
+Registersymbol(ntohlX)
+
+define(bindX,ArrIatAdd+38)
+Registersymbol(bindX)
+define(listenX,ArrIatAdd+3C)
+Registersymbol(listenX)
+define(recvX,ArrIatAdd+40)
+Registersymbol(recvX)
+define(sendX,ArrIatAdd+44)
+Registersymbol(sendX)
+define(closesocketX,ArrIatAdd+48)
+Registersymbol(closesocketX)
+define(acceptX,ArrIatAdd+4C)
+Registersymbol(acceptX)
+//debugcount
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>10</ID>
+      <Description>"IatGate_System.X"</Description>
+      <LastState Activated="1"/>
+      <Color>FF00FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(ReWhile)
+Iat_SystemX:
+mov [ebp+c],0
+mov [ebp+8],0
+
+ReWhile:
+mov ebx,IATGate-20
+mov ecx,ShortMetaDLL-20
+add [ebp+c],20
+add [ebp+8],4
+
+
+mov edi,[ebp+c] //20count
+add ebx,edi
+add ecx,edi
+push ecx
+push ebx
+call [GetModules]
+push eax
+call [GProc]
+mov edi,[ebp+8] //4 add
+mov [ArrIatAdd-4+edi],eax
+cmp eax,0
+jne ReWhile
+ret
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"API골조 저장소 예외처리 용"</Description>
+      <LastState Activated="1"/>
+      <Color>FF0000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+Poin1:
+dd 04000000
+
+0150105C:
+dd #1000
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>199</ID>
+      <Description>"Pointer골조 처리"</Description>
+      <LastState Activated="1"/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+pathdata:
+dd Pointermain
+TwelveMetaPointer:
+dd TwelveArrAddress
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"Meta 문자 골조 처리용"</Description>
+      <LastState Activated="1"/>
+      <Color>BB5944</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+acPath:
+db '.\core\*.core' 00 00 00
+
+Error41:
+db 'Error dbvmnullPointer' 00
+
+
+
+
+LoadMemoryPath:
+db 'N:\. Personal_folder\Test_Listen_web\DarkByteHtml\DarkByte.html' 00 00
+
+LoadMemoryPath2:
+db 'N:\. Personal_folder\Test_Listen_web\12_Object_System_X.Object' 00 00
+
+
+LoadName:
+db 'C:\정리본\c++core\coretestprogram'
+
+SaveFileName:
+db '‪C:\Dump\dbvm.txt' 00 00 00 00 00
+
+Web0A:
+db 0A 0D 00
+FixFile:
+db 'dbvmx.txt'
+DownMainConPath:
+db 'http://libdonwload.kro.kr' 00 00 00
+//https://drive.google.com/uc?export=download&amp;id=1-xj5Pzx-qVqdfbm3pmczbIKxrrH-cSSx
+
+UTRLT:
+db 'InetURL/1.0' 00 00
+ URLLI1:
+ db 'rltpt.p-e.kr' 00 00
+ GetMata:
+ db 'GET'
+
+ SQLIDX:
+ db 'root'
+
+
+ SQLAPssowrdX:
+ db 'aa080808'
+
+ SQLIPX:
+ db '127.0.0.1'
+
+
+ SqlCommandLine:// 'SqlCommandLine'
+db 55 50 44 41 54 45 20 60 6F 72 69 6F 6E 61 6C 70 68 61 60 2E 60 63 68 61 72 61 63 74 65 72 60 20 53 45 54 20 60 43 68 61 72 61 63 74 65 72 4E 61 6D 65 60 3D 27 33 33 32 32 32 33 27 20 57 48 45 52 45 20 60 43 68 61 72 61 63 74 65 72 49 44 60 3D 27 32 27 3B 00 3D 27 32 27 3B
+
+/*&lt;!DOCTYPE html&gt;&lt;html style="font-size: 10px;font-family: Roboto, Arial, sans-serif;" lang="ko-KR" system-icons typography typography-spacing&gt;&lt;head&gt;&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"/&gt;&lt;meta http-equiv="origin-trial" content="At2B4ABoBE3kiyFJp5tVx/Zi81HAk2cn2zjA0NcVurqsrwLHavE/fe86HDn71lPLg+o1Rf7jkyRD7QdT4TS8+g0AAABteyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJQcml2YWN5U2FuZGJveEFkc0FQSXMiLCJleHBpcnkiOjE2NjEyOTkxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="/&gt;&lt;script nonce="VvxF3P1uuRNMQ8XsN0VrZQ"&gt;var ytcfg={d:function(){return window.yt&amp;&amp;yt.config_||ytcfg.data_||(ytcfg.data_={})},get:function(k,o){return k in ytcfg.d()?ytcfg.d()[k]:o},set:function(){var a=arguments;if(a.length&gt;1)ytcfg.d()[a[0]]=a[1];else for(var k in a[0])ytcfg.d()[k]=a[0][k]}};
+window.ytcfg.set('EMERGENCY_BASE_URL', '\/error_204?t\x3djserror\x26level\x3dERROR\x26client.name\x3d1\x26client.version\x3d2.20220804.00.00');&lt;/script&gt;&lt;script nonce="VvxF3P1uuRNMQ8XsN0VrZQ"&gt;(function(){window.yterr=window
+*/
+//Update Char
+//https://drive.google.com/file/d/1hnGEGxxk7UIXq5I2Et_2eJruZ6JL7ggc/view?usp=sharing
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"IatGate지속변조"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(createError)
+label(ReadError)
+IatGateDllAC:
+push TwelveMetaStatus1//
+mov ecx,[TwelveMetaPointer]
+mov ecx,[ecx]
+push ecx//LoadMemoryPath3
+call [FindFirstFileAX]
+mov edi,MemoryLoadAPi
+call Null_UnSum
+
+push eax
+call [FindCloseX]
+
+createError:
+push 0
+push 00800027
+push 3
+push 0
+push 1
+push 80000000
+mov ecx,[TwelveMetaPointer]
+mov ecx,[ecx]
+push ecx//LoadMemoryPath3
+
+call [CreateFileAX]
+//MainCashDiskH
+mov edi,createError
+call Null_UnSum
+mov [ebp-58],eax
+
+ReadError:
+push [ebp-58]
+push 0
+lea ebx,[ebp+c]
+push ebx
+push [TwelveMetaStatus1+20] //&lt;&lt;
+lea eax,[IATGate]//loadMemory.00701000
+push eax //loadtest
+push [ebp-58]
+call [ReadFileX]
+
+mov edi,ReadError
+call Null_UnSum
+add esp,4
+//// Dump
+
+
+push [ebp-58]
+call [CloseHandleX]
+push #1// 0.5초 Timer
+call [SleepX]
+jmp IatGateDllAC
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"글로벌 인터프리터 락"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+ThreadLackAC:
+label(loopAC1)
+label(RetxDBVMS2)
+cmp [ThreadLackAC],1
+je loopAC1
+RetxDBVMS2:
+ret
+
+loopAC1:
+push 1
+call sleep
+jmp ThreadLackAC
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>12</ID>
+      <Description>"종료 형성 트렁크스 형성"</Description>
+      <LastState Activated="1"/>
+      <Color>FFFF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+PointerACC1:
+mov [Poin1],ebx
+
+mov edx,[Poin2]
+mov [edx],ebx
+add [Poin2],4
+ret
+
+
+
+nullp:
+push Error41
+call [printfX]
+add esp,4
+push 800000000
+call [SleepX]
+ret
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"Null,UnSUm"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(ErrorX)
+
+
+
+Null_UnSum:
+test eax,eax
+je ErrorX
+cmp eax,-1
+je ErrorX
+ret
+
+ErrorX:
+add esp,4
+jmp edi
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>18</ID>
+      <Description>"연사 캐싱"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(createError)
+label(ReadError)
+
+MemoryLoadAPi:
+mov [Inter],esp
+push LoadMemoryStatus
+push LoadMemoryPath
+call [FindFirstFileAX]
+mov edi,MemoryLoadAPi
+call Null_UnSum
+
+push eax
+call [FindCloseX]
+
+createError:
+push 0
+push 00800027
+push 3
+push 0
+push 1
+push 80000000
+push LoadMemoryPath
+call [CreateFileAX]
+//MainCashDiskH
+mov edi,createError
+call Null_UnSum
+mov [MainCashDiskH],eax
+
+ReadError:
+push [MainCashDiskH]
+push 0
+lea ebx,[ebp+c]
+push ebx
+push [LoadMemoryStatus+20] //size
+lea eax,[DataBaseSaveDump]//test
+push eax //loadtest
+push [MainCashDiskH]
+call [ReadFileX]
+
+mov edi,ReadError
+call Null_UnSum
+add esp,4
+//// Dump
+
+
+push [MainCashDiskH]
+call [CloseHandleX]
+push #1// 0.5초 Timer
+call [SleepX]
+jmp MemoryLoadAPi
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>323</ID>
+      <Description>"FileNameGet"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+FileNameGetX:
+mov [filehPointer],ebp
+label(goto1)
+label(goto2)
+mov edi,[filehPointer]
+mov ecx,[edi-77c]
+xor edi,edi
+goto1:
+inc edi
+cmp [ecx+edi],'file'
+jne goto1
+cmp [ecx+edi+4],'name'
+jne goto1
+lea ebx,[ecx+edi+a]
+mov [DownPath],ebx
+goto2:
+inc edi
+cmp [ecx+edi],66203B22
+jne goto2
+mov [ecx+edi],0
+xor ebx,ebx
+xor ecx,ecx
+xor edi,edi
+ret
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"MainThread 메인 쓰레드"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+MainThread:
+mov [Inter],esp
+
+push 0
+push 0
+push [ebp+20] //전달 인자
+push [ebp+20] //api
+push [ebp+18] //size
+push 0
+call [CreateThreadX]
+push eax
+call [CloseHandleX]
+push 1
+call [SleepX]
+ret
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"MemSet메모리 초기화"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+label(goto1)
+MemSetX:
+xor eax,eax
+xor ebx,ebx
+xor ecx,ecx
+mov eax,[ebp+18] //address eax
+mov ebx,[ebp+20]//size ebx
+goto1:
+sub ebx,4
+mov [ebx+eax],0
+cmp ebx,0
+jne goto1
+ret
+// Exit
+
+//while
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>21</ID>
+      <Description>"MainThread 메인 쓰레드 Start 타점. (비활성화)"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+MainThreadStart:
+call MainThread
+ret
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"메모리 Set타점2 (비활성화)"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+//00901000:
+//db 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18
+MainStart:
+mov [ebp+18],1000//size
+mov [ebp+20],00901000 //address
+call MemSetX
+ret
+
+
+ //createThread(MainStart)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"빅!포인터."</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+label(loopx)
+BigPo_X:
+push 40
+push 00001000 { 4096 }
+push 00201000 { 2101248 }
+push 0
+call KERNEL32.VirtualAlloc
+mov [VerX],eax//pointersaver
+
+loopx:
+inc [bigpointerStartCount]
+cmp [bigpointerStartCount],#33 //bug Level 6 주석 따라가세요. 빅포인터 문제 생길 수 있어요.
+jae endbigret
+push 1
+call sleep
+jmp loopx
+endbigret:
+mov eax,[VerX]
+mov [eax],1
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"올레 유쉬크::RWX Core Store"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(createError)
+label(ReadError)
+RWXAPI:
+push LoadMemoryStatus2
+push LoadMemoryPath2
+call [FindFirstFileAX]
+mov edi,MemoryLoadAPi
+call Null_UnSum
+
+push eax
+call [FindCloseX]
+
+createError:
+push 0
+push 00800027
+push 3
+push 0
+push 1
+push 80000000
+push LoadMemoryPath2
+call [CreateFileAX]
+//MainCashDiskH
+mov edi,createError
+call Null_UnSum
+mov [MainCashDiskH2],eax
+
+ReadError:
+push [MainCashDiskH2]
+push 0
+lea ebx,[ebp+c]
+push ebx
+push [LoadMemoryStatus2+20] //size
+mov eax,[VerX]//test
+push eax //loadtest
+push [MainCashDiskH2]
+call [ReadFileX]
+
+mov edi,ReadError
+call Null_UnSum
+add esp,4
+//// Dump
+
+
+push [MainCashDiskH2]
+call [CloseHandleX]
+push #1// 0.5초 Timer
+call [SleepX]
+jmp RWXAPI
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>192</ID>
+      <Description>"Sql진퉁 파서"</Description>
+      <LastState Activated="1"/>
+      <Color>800080</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+label(roots)
+SqlMain_X:
+mov [Sqlportx],#3306
+push [Sqlportx]
+push 00 { 0 }
+push 00 { 0 }
+push [Sqlportx] { 3306 }
+push 00 { 0 }
+push SQLAPssowrdX { ("root") }
+push SQLIDX { ("root") }
+push 00 { 0 }//ip
+push SqlOobject//loadMemory
+call libmySQL.mysql_real_connect
+push SqlCommandLine
+push SqlOobject//loadMemory
+call LIBMYSQL.mysql_query
+add esp,4
+ret
+push #100
+call sleep
+jmp SqlMain_X
+
+
+roots:
+add esp,4
+ret
+push #100
+call sleep
+
+jmp SqlMain_X
+
+
+//CreateThread(SqlMain_X)
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"DumpStart"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+Dump_System:
+push 0
+push 80
+push 02
+push 0
+push 3
+push 40000000
+push SaveFileName+3
+call [CreateFileAX]
+
+mov [MainCashCashingH],eax
+push 00
+push ValueX
+push [LoadMemoryStatus+20]
+push DataBaseSaveDump//dump를 할 지점
+push [MainCashCashingH]
+call [WriteFileX]
+
+push [MainCashCashingH]
+call [CloseHandleX]
+ret
+
+ //createThread(Dump_System)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"역산 파서"</Description>
+      <LastState Activated="1"/>
+      <Color>4080FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+
+Mult_Pa:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push DownMainConPath { ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+push FixFile { (-491986516) }
+call KERNELBASE.CreateFileA
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>44</ID>
+      <Description>"단일 HTML파서"</Description>
+      <LastState Activated="1"/>
+      <Color>4080FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//http://rltpt.p-e.kr/
+WinnetDBVM:
+push #5
+call sleep
+mov eax,[esp]
+mov [termiAddress],eax
+mov [Getsize],#1000
+mov [type32],#32
+mov [type47],#47
+
+push 00
+push 00
+push 00
+push 00
+push UTRLT
+call [00400000+3280] //wininet.internetopena
+mov [WinnetH1],eax
+push 00
+push 00
+push 3//type
+push type32
+push type32
+push 50
+push URLLI1
+mov eax,[WinnetH1]
+push eax
+call WININET.InternetConnectA
+mov [WinnetH2],eax
+
+push 00
+push 00400000
+push 00
+push 00
+push 00
+push type47
+push GetMata
+mov eax,[WinnetH2]
+push eax
+call WININET.HttpOpenRequestA
+mov [WinnetH3],eax
+
+push 00
+push 00
+push 00
+push 00
+mov eax,[WinnetH3]
+push eax
+call WININET.HttpSendRequestA
+label(retd)
+retd:
+mov [Getsize],#1000
+push Getsize
+push #1000
+push savedata
+mov edx,[WinnetH3]
+push edx
+call WININET.InternetReadFile
+cmp [savedata],0
+je retd
+push [WinnetH1]
+call WININET.InternetCloseHandle
+push [WinnetH2]
+call WININET.InternetCloseHandle
+push [WinnetH3]
+call WININET.InternetCloseHandle
+mov eax,[termiAddress]
+mov [esp],eax
+ret
+
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Z_Thread_System."</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+//00901000:
+//ret
+
+
+Z_Thread_System:
+inc [Z_Count]
+mov [ebp+20],00901000 //전달인자
+mov [ebp+20],00901000 //api
+mov [ebp+18],4800//생성 힙.
+
+call MainThread
+cmp [Z_Count],#100
+jne Z_Thread_System
+ret
+
+// CreateThread(Z_Thread_System)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"빅.포인터 (RW) 골조 영역"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+BigPointerApi:
+mov [mallocSize],#51000
+push [mallocSize]
+call [mallocX]
+
+add esp,4
+
+mov [BigPointer],eax
+mov [ebp+18],eax
+mov ebx,[mallocSize]
+mov [ebp+20],ebx
+call MemSetX
+ret
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"TwelveMeta애큐물레이터"</Description>
+      <LastState Activated="1"/>
+      <Color>FF00FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+label(Twelve1)
+label(Twelve4)
+label(TwelveExit)
+
+TwelveMetaAC:
+xor edi,edi
+xor ecx,ecx
+Twelve1:
+inc edi
+mov eax,[VerX]
+lea edx,[eax+edi-1]
+cmp [eax+edi-1],0
+je TwelveExit
+cmp [eax+edi-1],'DBVM'
+je Twelve4
+cmp [eax+edi-1],'http'
+jne Twelve1
+mov [TwelveArrAddress+ecx],edx
+
+add ecx,4
+jmp Twelve1
+
+Twelve4:
+mov [TwelveArrAddress+ecx],edx
+add ecx,4
+jmp Twelve1
+
+TwelveExit:
+ret
+
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>40</ID>
+      <Description>"SocketMain 틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartThreadSocket1:
+mov [ebp+20],SocketMain //전달인자
+mov [ebp+20],SocketMain //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>39</ID>
+      <Description>"Sub_Start_Accept 틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartThreadSocket2:
+mov [ebp+20],Sub_Start_Accept //전달인자
+mov [ebp+20],Sub_Start_Accept //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>38</ID>
+      <Description>"StartArtPlate 틀판 ::연사 캐싱"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartThreadArtPlate:
+mov [ebp+20],MemoryLoadAPi //전달인자
+mov [ebp+20],MemoryLoadAPi //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>37</ID>
+      <Description>"BigPointer_X 틀판 ::연사 캐싱"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartBigPo:
+mov [ebp+20],BigPo_X //전달인자
+mov [ebp+20],BigPo_X //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"IatGate지속변조"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartIatGate_System:
+mov edi,[esp]
+mov [esp-58],edi
+mov [ebp+20],IatGateDllAC //전달인자
+mov [ebp+20],IatGateDllAC //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+mov [esp-58],edi
+mov [esp],edi
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"올레 유쉬크 류 :: 틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+StartOllyDbg:
+push 1
+call sleep
+mov eax,[VerX]
+mov eax,[eax]
+test eax,eax
+je StartOllyDbg
+mov [ebp+20],RWXAPI //전달인자
+mov [ebp+20],RWXAPI //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"역산 다운로드 파서::틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+Start_Mult_Passer:
+mov [ebp+20],Mult_Pa //전달인자
+mov [ebp+20],Mult_Pa //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"HTML파서::틀판 (비활성화)"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+Start_Mult_Passer_html:
+push 0
+push 0
+push WinnetDBVM
+push WinnetDBVM
+push 0
+push 0
+call createThread
+push eax
+call KERNELBASE.CloseHandle
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>198</ID>
+      <Description>"Sql::변조 틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+SqlMain_X_Start:
+mov [ebp+20],SqlMain_X //전달인자
+mov [ebp+20],SqlMain_X //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>329</ID>
+      <Description>"HTML::업데이터 틀판"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//Thread
+
+HTMLUpdater_Start:
+mov [ebp+20],HTMLUpdater //전달인자
+mov [ebp+20],HTMLUpdater //api
+mov [ebp+18],#1000//생성 힙.
+call MainThreadStart
+ret
+
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>328</ID>
+      <Description>"HTML_Updater"</Description>
+      <LastState Activated="1"/>
+      <Color>00FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+HTMLUpdater:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+label(ednx)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+add [DownCountX],4 //CountUp
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+call KERNELBASE.CreateFileA
+
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+add [DownCountX],4
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+cmp edi,0
+je ednx
+jmp HTMLUpdater
+ednx:
+ret
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"소캣 형성"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+
+//start타점
+SocketMain:
+push SocketMeta //200 레인지
+push 202
+call [WSAStartupX]
+
+
+push 06
+push 01
+push 02
+call [socketX]
+mov [skt],eax
+
+xor eax,eax
+mov [ebp-1ac],0
+mov [ebp-1a8],0
+mov [ebp-1a4],000000
+mov [ebp-1a0],000000
+mov eax,2
+mov [ebp-1ac],ax
+
+
+push [socketport]
+call [htonsX]
+mov [ebp-1aa],ax
+
+push 00
+call [ntohlX]
+
+push 10
+lea eax,[ebp-1ac]
+push eax
+push [skt]
+call [bindX]
+
+push 7fffffff
+push [skt]
+call [listenX]
+ret
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"acceptapi"</Description>
+      <LastState Activated="1"/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+//Awiat가 없는게 비동기
+//Awiat동기
+
+label(flutter_ray)
+label(icon)
+
+///손님 로더///
+HalfThread_System:
+mov [ebp+48],0
+loop2:
+inc [ebp+48]
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+
+lea eax,[ebp-00000408]
+cmp [eax],'GET '
+je flutter_ray
+
+
+push 00 { 0 }
+push 400 { 1024 } //size
+lea eax,[ebp-00000408]
+push eax//address
+mov ecx,[ebp+8]
+push ecx
+call [recvX]
+cmp [ebp+48],#10
+jae Termi
+jmp loop2
+
+
+Termi:
+INC [debugcount]
+push [ebp+8]
+call [closesocketX]
+ret
+
+
+
+flutter_ray:
+cmp [eax+4],'/fav'
+je icon
+
+
+push 00
+push [LoadMemoryStatus+20]
+push DataBaseSaveDump //타워
+push [ebp+8]
+call [sendX]
+
+push 00
+push [ebp+8]
+call [closesocketX]
+add esp,4
+ret
+
+icon:
+push 00
+push [ebp+8]
+call [closesocketX]
+add esp,4
+ret
+
+/////쓰레드 반동기 진행 로더////
+label(StartThread1)
+Sub_Start_Accept: //여기다가 슬립 넣는게 정상인데 cpu소모율을 높이는 수지가 안맞아서.
+ret
+cmp [DebugCount2],1
+je StartThread1
+jmp Sub_Start_Accept
+
+
+StartThread1:
+ret
+mov [DebugCount2],0
+push 0
+push 0
+push [ebp+8] //클라이언트 인자 식별자
+push Sub_Start_Accept //없애는 로테이션으로 만들 수 있다.
+push 0 //SIKZE
+push 0
+call [createThreadX]
+//SLEEP 넣어야 할 지도 모름.
+PUSH EAX
+CALL [CloseHandleX]
+jmp acceptapi
+
+
+//엑셉트 컨트롤러//
+acceptapi:
+//타점
+XOR eax,eax
+mov [ebp-1C4],0
+mov [ebp-1C0],0
+mov [ebp-1BC],000000
+mov [ebp-1B8],000000
+mov [ebp-1D0],000010
+lea eax,[ebp-1d0]
+push eax
+lea ecx,[ebp-1c4]
+push ecx
+mov edx,[skt]
+push edx
+call [acceptX]
+//시작 Listen.
+mov [ebp+8],eax
+//점포인트
+
+push 0
+push 0
+push [ebp+8]
+push HalfThread_System
+push 0
+push 0
+call [createThreadX]
+push eax
+call [CloseHandleX]
+jmp acceptapi
+
+//jmp acceptapi
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"타점(포트 형성 넣기) sql 포트"</Description>
+      <LastState Activated="1"/>
+      <Color>808080</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+DebugApi:
+call Start_Mult_Passer_html
+push #100
+call sleep
+
+call Iat_SystemX//Claer
+
+call SqlMain_X_Start
+call StartBigPo //Error Level Over 9(MAx 7)
+push #60
+call sleep
+call StartOllyDbg
+push #60
+call sleep
+call TwelveMetaAC//StartBigPo 선행
+//call StartIatGate_System
+//트웰브 IatGateSystem스타트 활성화
+push #900
+call sleep
+call Start_Mult_Passer
+call HTMLUpdater_Start
+mov [socketport],#80
+call StartThreadArtPlate//연사 캐싱
+call StartThreadSocket2 //소캣2
+call StartThreadSocket1 //소캣 1
+
+//여기서 연산이 끊김.
+call acceptapi //Accept연산
+ret
+
+CreateThread(DebugApi)
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>129</ID>
+      <Description>"SleepX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>130</ID>
+      <Description>"printfX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>132</ID>
+      <Description>"FindFirstFileAX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>133</ID>
+      <Description>"FindCloseX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>134</ID>
+      <Description>"CreateFileAX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>135</ID>
+      <Description>"ReadFileX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"CloseHandleX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>DownPath</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>137</ID>
+      <Description>"CreateThreadX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>138</ID>
+      <Description>"WriteFileX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>139</ID>
+      <Description>"mallocX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"WSAStartupX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>141</ID>
+      <Description>"socketX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+2c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"htonsX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"ntohlX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"bindX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"listenX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+3C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"recvX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"sendX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"closesocketX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"acceptX"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ArrIatAdd+4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"빅!포인터 저장소"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>VerX</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"빅!포인터 카운팅"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>VerX+4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"File Hadnle"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>MainCashDiskH</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"File Hadnle2"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>MainCashDiskH+14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>161</ID>
+      <Description>"12개의 객체 트웰브 오브젝트::Pointer"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <Color>0000FF</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>TwelveMetaPointer</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>163</ID>
+          <Description>"1 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>164</ID>
+          <Description>"2 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>176</ID>
+          <Description>"3 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>175</ID>
+          <Description>"4 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>174</ID>
+          <Description>"5 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>10</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>173</ID>
+          <Description>"6 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>14</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>172</ID>
+          <Description>"7 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>18</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>171</ID>
+          <Description>"8 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>1C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>170</ID>
+          <Description>"9 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>20</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>169</ID>
+          <Description>"10 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>168</ID>
+          <Description>"11 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>167</ID>
+          <Description>"12 에리어"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>501</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>TwelveMetaPointer</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>2C</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>184</ID>
+      <Description>"웹파서 데이터"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>00FF00</Color>
+      <VariableType>String</VariableType>
+      <Length>1011</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>savedata</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>190</ID>
+      <Description>"mysql 연결 코어"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+00903500:
+db 55 50 44 41 54 45 20 60 6F 72 69 6F 6E 61 6C 70 68 61 60 2E 60 63 68 61 72 61 63 74 65 72 60 20 53 45 54 20 60 43 68 61 72 61 63 74 65 72 4E 61 6D 65 60 3D 27 33 33 32 32 32 33 27 20 57 48 45 52 45 20 60 43 68 61 72 61 63 74 65 72 49 44 60 3D 27 32 27 3B 00 3D 27 32 27 3B
+//code from here to '[DISABLE]' will be used to enable the cheat
+00907100:
+db 'root'
+00901300:
+db 'ok' 0A 00
+00901600:
+db 'aa080808' 00 00
+label(roots)
+00801000:
+push 00 { 0 }
+push 00 { 0 }
+push #3306 { 3306 }
+push 00 { 0 }
+push 00901600 { ("root") }
+push 00907100 { ("root") }
+push 00 { 0 }//ip
+push 00f02000//loadMemory
+call libmySQL.mysql_real_connect
+
+push 00903500
+push 00f02000
+call LIBMYSQL.mysql_query
+
+push #5000000
+call sleep
+
+ret
+
+roots:
+push #5000000
+call sleep
+ret
+
+CreateThread(00801000)
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>189</ID>
+      <Description>"서버 소캣 연결 코어(버그카운티)"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//0
+//6
+//
+define(ips,02401900)
+Registersymbol(ips)
+define(diret,02401A00)
+Registersymbol(diret)
+define(woncode,02403200)
+Registersymbol(woncode)
+define(Thre,02401C00)
+Registersymbol(Thre)
+label(put)
+label(put2)
+define(terminte,02401D00)
+Registersymbol(terminte)
+define(inttuerpt1,02401E00)
+Registersymbol(inttuerpt1)
+define(petman1,02402200)
+Registersymbol(petman1)
+define(petman2,02402400)
+Registersymbol(petman2)
+define(petman3,02402600)
+Registersymbol(petman3)
+define(petman4,02402800)
+Registersymbol(petman4)
+define(calldefine,02402A00)
+Registersymbol(calldefine)
+define(mian,02401000)
+Registersymbol(mian)
+define(saves,02405A00)
+Registersymbol(calldefine)
+define(calde,02406A00)
+Registersymbol(calldefine)
+label(loop2)
+
+ips:
+db '222.239.225.43' 00
+diret:
+repne jne diret+4
+repne ret
+push ebp
+mov ebp,esp
+sub esp,00
+push eax
+
+Thre:
+push ebp
+mov ebp,esp
+sub esp,08
+mov [ebp-04],ecx
+mov eax,[ebp-04]
+mov [ebp-08],eax
+mov ecx,[ebp-04]
+cmp ecx,0
+je put2
+movzx edx,byte ptr [ecx]
+test edx,edx
+je put
+call kernel32.GetCurrentThreadId//kernel32.GetCurrentThreadId//dword ptr [Thid]// GetCurrentThreadId
+jne put
+nop
+put:
+mov esp,ebp
+pop ebp
+ret
+put2:
+push 00
+push fffffffE
+call TerminateThread
+ret
+woncode:
+db 01 01 01 01 01 01 01 01 01 01
+
+woncode+60:
+db 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+
+woncode+ff:
+db 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+
+woncode-10:
+dd F3C43878
+
+mian:
+push ebp
+mov ebp,esp
+push -01 { 255 }
+nop
+nop
+nop
+nop
+nop
+mov eax,fs:[00000000] { 0 }
+push eax
+sub esp,000009E0 { 2528 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-000009EC]
+mov ecx,00000278 { 632 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+nop
+nop
+nop
+nop
+nop
+xor eax,ebp
+mov [ebp-10],eax
+push eax
+lea eax,[ebp-0C]
+mov fs:[00000000],eax { 0 }
+mov [ebp-000009C4],00000000 { 0 }
+mov ecx,woncode { (1) } //woncode
+call Thre// //Thre
+mov esi,esp
+lea eax,[ebp-000001A4]
+push eax
+push 00000202 { 514 }
+call WS2_32.WSAStartup //dword ptr [apimd5.exe+271C4] { -&gt;WS2_32.WSAStartup }
+cmp esi,esp
+call diret//diret
+test eax,eax
+je ret1 //ret1
+mov eax,00000001 { 1 }
+ret ///////////////-*****---
+ret1:
+mov esi,esp
+push 00 { 0 }
+push 01 { 1 }
+push 02 { 2 }
+call WS2_32.socket//dword ptr [apimd5.exe+271C8] { -&gt;WS2_32.socket }
+cmp esi,esp
+call diret //diret
+mov [ebp-000001B0],eax
+mov [02405A00],eax
+push 10 { 00000010 }
+push 00 { 0 }
+lea eax,[ebp-000001C8]
+push eax
+call msvcrt.memset
+ //VCRUNTIME140D.memset
+add esp,0C { 12 }
+mov eax,00000002 { 2 }
+mov [ebp-000001C8],ax
+mov esi,esp
+push ips { ("127.0.0.1") }
+call WS2_32.inet_addr //dword ptr [apimd5.exe+271D4] { -&gt;WS2_32.inet_addr }
+cmp esi,esp
+call diret //diret
+mov [ebp-000001C4],eax
+mov esi,esp
+push #3306
+//push #9090 { 9090 } //port
+call WS2_32.htons//dword ptr [apimd5.exe+271D8] { -&gt;WS2_32.htons }
+cmp esi,esp
+call diret
+mov [ebp-000001C6],ax
+mov esi,esp
+push 10 { 00000010 }
+lea eax,[ebp-000001C8]
+push eax
+mov ecx,[ebp-000001B0]
+push ecx
+call WS2_32.connect //dword ptr [apimd5.exe+271DC] { -&gt;WS2_32.connect }
+cmp esi,esp
+call diret//apimd5.exe+114C9
+push 10
+lea ecx,[ebp-000001E0]
+call inttuerpt1
+lea ecx,[ebp-000001E0]
+//call calldefine //sim
+mov [ebp-04],00000000
+mov eax,00000001
+test eax,eax
+je terminte
+push 00
+push 01
+lea eax,[ebp-000001E9]
+push eax
+mov ecx,[ebp-000001B0] //
+push ecx
+call WS2_32.recv //{ -&gt;WS2_32.recv } 004188A7
+push 0
+push 0
+push calde
+push calde
+push 0
+push 0
+call createThread
+push 00
+push fffffffE
+call TerminateThread
+ret
+
+terminte:
+push 00
+push fffffffE
+call TerminateThread
+ret
+
+//00414E30 // //String cmd 생성
+calldefine:
+push ebp
+mov ebp,esp
+push -01 { 255 }
+push 00401000//apimd5.exe+1E210 //XXXXXXX
+mov eax,fs:[00000000] { 0 }
+push eax
+sub esp,000000E4 { 228 }
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000F0]
+mov ecx,00000039 { 57 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+pop ecx
+mov eax,[00400000+25008][woncode-10] ////////woncode-10 B206F0
+xor eax,ebp
+push eax
+lea eax,[ebp-0C]
+mov fs:[00000000],eax { 0 }
+mov [ebp-14],ecx
+mov ecx,woncode+1{ (16843009) } //1 9
+call Thre
+movzx eax,byte ptr [ebp-000000DD]
+push eax
+mov ecx,[ebp-14]
+
+
+
+///////////////////gotoa
+call petman1
+mov ecx,[ebp-14]
+call petman2
+push eax
+lea ecx,[ebp-000000E9]
+
+push eax
+mov ecx,[ebp-14]
+
+mov eax,[ebp-14]
+mov ecx,[ebp-0C]
+mov fs:[00000000],ecx { 0 }
+pop ecx
+pop edi
+pop esi
+pop ebx
+add esp,000000F0 { 240 }
+cmp ebp,esp
+call diret
+mov esp,ebp
+pop ebp
+ret
+
+
+
+petman1:
+push ebp
+mov ebp,esp
+sub esp,000000CC
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000CC]
+mov ecx,00000033
+mov eax,CCCCCCCC
+repe stosd
+pop ecx
+mov [ebp-08],ecx
+mov ecx,woncode+60
+call Thre
+mov ecx,[ebp-08]
+call petman2 //petman2
+mov ecx,[ebp-08]
+call petman3 //petf
+mov eax,[ebp-08]
+pop edi
+pop esi
+pop ebx
+add esp,000000CC
+cmp ebp,esp
+call diret
+mov esp,ebp
+pop ebp
+ret 0004
+
+petman2:
+push ebp
+mov ebp,esp
+sub esp,000000CC
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000CC]
+mov ecx,00000033
+mov eax,CCCCCCCC
+repe stosd
+pop ecx
+mov [ebp-08],ecx
+mov ecx,woncode+60
+call Thre//call Thre
+mov eax,[ebp-08]
+pop edi
+pop esi
+pop ebx
+add esp,000000CC
+cmp ebp,esp
+call diret
+mov esp,ebp
+pop ebp
+ret
+
+
+petman3:
+push ebp
+mov ebp,esp
+sub esp,000000CC
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000CC]
+mov ecx,00000033
+mov eax,CCCCCCCC
+repe stosd
+pop ecx
+mov [ebp-08],ecx
+mov ecx,woncode+1 //9
+call Thre
+mov ecx,[ebp-08]
+call petman4 //apimd5.exe+11311
+mov eax,[ebp-08]
+mov [eax+04],00000000
+mov eax,[ebp-08]
+mov [eax+08],00000000
+mov eax,[ebp-08]
+mov [eax+0C],00000000
+mov eax,[ebp-08]
+pop edi
+pop esi
+pop ebx
+add esp,000000CC
+cmp ebp,esp
+call diret //apimd5.exe+1147E
+mov esp,ebp
+pop ebp
+ret
+
+
+
+petman4:
+push ebp
+mov ebp,esp
+sub esp,000000CC
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000CC]
+mov ecx,00000033
+mov eax,CCCCCCCC
+repe stosd
+pop ecx
+mov [ebp-08],ecx
+mov ecx,woncode+ff
+call Thre
+mov eax,[ebp-08]
+mov [eax],00000000
+mov eax,[ebp-08]
+pop edi
+pop esi
+pop ebx
+add esp,000000CC
+cmp ebp,esp
+call diret
+mov esp,ebp
+pop ebp
+ret
+
+
+
+
+
+inttuerpt1:
+push ebp
+mov ebp,esp
+sub esp,000000CC
+push ebx
+push esi
+push edi
+push ecx
+lea edi,[ebp-000000CC]
+mov ecx,00000033
+mov eax,CCCCCCCC
+repe stosd
+pop ecx
+mov [ebp-08],ecx
+mov eax,[ebp+08]
+push eax
+push 00
+mov ecx,[ebp-08]
+push ecx
+call msvcrt.memset //msvcrt.memset
+add esp,0C
+pop edi
+pop esi
+pop ebx
+add esp,000000CC
+cmp ebp,esp
+call diret
+mov esp,ebp
+pop ebp
+ret 0004
+
+calde:
+mov ebp,esp
+push -01 { 255 }
+push 00401000 { (1418432656) }
+mov eax,fs:[00000000] { 0 }
+push eax
+sub esp,00000670 { 1648 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-0000067C]
+mov ecx,0000019C { 412 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+//mov eax,[apimd5.exe+24008] { (-550970636) }
+xor eax,ebp
+mov [ebp-10],eax
+push eax
+lea eax,[ebp-0C]
+mov fs:[00000000],eax { 0 }
+mov ecx,woncode+1//0042703B//00402700{ (1) } //9
+call Thre
+
+//cahr생성
+push 00000400 { 1024 }
+push 00 { 0 }
+lea eax,[ebp-00000414]
+push eax
+call msvcrt.memset//memset
+add esp,0C { 12 }
+
+//String cmd 생성
+lea ecx,[ebp-00000438]
+//call calldefine
+mov [ebp-04],00000000 { 0 }
+loop2:
+//while !WSAGEtLasetError()
+mov esi,esp
+call kernel32.GetLastError//[apimd5.exe+251E0] { -&gt;-&gt;kernel32.GetLastError }
+cmp esi,esp
+call diret//apimd5.exe+1150F
+//ZeroMemory(nuffer,Pcket__size) 버퍼 비우기
+push 00000400 { 1024 }
+push 00 { 0 }
+lea eax,[ebp-00000414]
+push eax
+call msvcrt.memset//memsetapimd5.exe+11352
+add esp,0C { 12 }
+
+// recv데[이터 받아오기
+mov esi,esp
+push 00 { 0 }
+push 00000400 { 1024 } //사이즈
+lea eax,[ebp-00000414]
+push eax //저장내용물
+mov ecx,[02405A00] { (128) }
+push ecx //
+call WS2_32.recv // dword ptr [apimd5.exe+251F4] { -&gt;WS2_32.recv }
+cmp esi,esp
+call diret
+jmp loop2
+
+
+
+
+ret2:
+push #210000000
+call sleep
+CreateThread(02401000)
+[DISABLE]
+
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>188</ID>
+      <Description>"소캣 형성"</Description>
+      <LastState/>
+      <Color>0000FF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+//0041E2A5
+alloc(packet,448)
+Registersymbol(packet)
+Registersymbol(main2)
+alloc(main2,412)
+
+packet:
+db 33 33 61 73 66 61 66 61 73 73 66 61 61 73 66 73 66 61 61 66 73 61 66 61 67 73 00 0D 0A
+createThread(main2)
+
+
+
+main2:
+push 0
+push 0
+push 02400000
+push 02401000
+push 0
+push 0
+call createThread
+push eax
+call KERNEL32.CloseHandle
+push 3
+call sleep
+jmp main2
+ret
+
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"SqlOobject[Arr]"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>SqlOobject</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>197</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>101</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>00F391B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>306</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>100</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>filehPointer</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>-77C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>307</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>26</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>030CF9C3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>308</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>26</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>030AED6E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>309</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>26</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>030CF9C3</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>310</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>26</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>030AED6E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>311</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+007f1000:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+mov [ebp-48],8
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[ebp-48]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+push FixFile { (-491986516) }
+call KERNELBASE.CreateFileA
+mov [filehPointer],ebp
+push #800000
+call sleep
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+createThread(007f1000)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>312</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01501074</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>313</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+007f1000:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+mov [ebp-48],8
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[ebp-48]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+push FixFile { (-491986516) }
+call KERNELBASE.CreateFileA
+mov [filehPointer],ebp
+push #800000
+call sleep
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+createThread(007f1000)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>314</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+0044f000:
+label(goto1)
+mov edi,[filehPointer]
+mov ecx,[edi-77c]
+xor edi,edi
+goto1:
+inc edi
+cmp [ecx+edi],'file'
+jne goto1
+//end
+mov edi,[ecx+edi]
+mov [009f1000],edi
+ret
+
+CreateThread(0044f000)
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>315</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>DownPath</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>316</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>111</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>DownPath</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>317</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>141</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>03144B6A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>318</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>141</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>03144B8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>319</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>141</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>031640B7</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>320</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>141</Length>
+      <Unicode>0</Unicode>
+      <CodePage>1</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>031640D9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>321</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>DownPath</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>322</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+007f1000:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+mov [ebp-48],4
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[ebp-48]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+push FixFile { (-491986516) }
+call KERNELBASE.CreateFileA
+
+mov [filehPointer],ebp
+
+label(goto1)
+label(goto2)
+mov edi,[filehPointer]
+mov ecx,[edi-77c]
+xor edi,edi
+goto1:
+inc edi
+cmp [ecx+edi],'file'
+jne goto1
+cmp [ecx+edi+4],'name'
+jne goto1
+lea ebx,[ecx+edi+a]
+mov [DownPath],ebx
+goto2:
+inc edi
+cmp [ecx+edi],66203B22
+jne goto2
+mov [ecx+edi],0
+
+xor ebx,ebx
+xor ecx,ecx
+xor edi,edi
+
+
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+createThread(007f1000)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>324</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+007f1000:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+add [DownCountX],4 //CountUp
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+call KERNELBASE.CreateFileA
+
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+createThread(007f1000)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>325</ID>
+      <Description>"Auto Assemble script"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+007f1000:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+add [DownCountX],4 //CountUp
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+call KERNELBASE.CreateFileA
+
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+ret
+
+createThread(007f1000)
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>326</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>DownPath</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>327</ID>
+      <Description>"HTML_Updater"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+
+
+HTMLUpdater:
+mov [Option],00736574 //
+label(Error1)
+label(Error2)
+label(ednx)
+push ebp
+mov ebp,esp
+sub esp,00000690 { 1680 }
+push ebx
+push esi
+push edi
+lea edi,[ebp-00000450]
+mov ecx,00000114 { 276 }
+mov eax,CCCCCCCC { -858993460 }
+repe stosd
+
+mov [ebp-2C],00000001 { 1 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push Option { (00736574) }
+call WININET.InternetOpenA
+mov [ebp-08],eax
+mov esi,esp
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+push 00 { 0 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+{ ("https://drive.google.com/file/d/1NnIw5RYCJhbP7QTmeBgQslqzbCt5A-") }
+mov eax,[ebp-08]
+push eax
+call WININET.InternetOpenUrlA
+add [DownCountX],4 //CountUp
+mov [ebp-14],eax
+push 00 { 0 }
+push 00000080 { 128 }
+push 02 { 2 }
+push 00 { 0 }
+push 00 { 0 }
+push 40000000 { 2.00 }
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+push edi
+call KERNELBASE.CreateFileA
+
+mov [ebp-0000044C],eax
+cmp dword ptr [ebp-0000044C],-01 { 255 }
+jmp Error1//
+Error1:
+mov ebx,[ebp-2c]
+cmp ebx,00 { 0 }
+jna Error2
+lea eax,[ebp-2C]
+push eax
+push 00000400 { 1024 }
+lea ecx,[ebp-00000434]
+push ecx
+mov edx,[ebp-14]
+push edx
+call WININET.InternetReadFile
+push 00 { 0 }
+lea eax,[ebp-00000440]
+push eax
+mov ecx,[ebp-2C]
+push ecx
+lea edx,[ebp-00000434]
+push edx
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.WriteFile
+jmp Error1
+Error2:
+mov eax,[ebp-14]
+push eax
+call WININET.InternetCloseHandle
+mov esi,esp
+mov eax,[ebp-08]
+push eax
+call WININET.InternetCloseHandle
+mov eax,[ebp-0000044C]
+push eax
+call KERNELBASE.CloseHandle
+add ebp,4
+mov esp,ebp
+add [DownCountX],4
+mov edi,[TwelveMetaPointer] //edi base
+mov ecx,[DownCountX]//ecx offset
+lea edi,[edi+ecx]
+mov edi,[edi]
+cmp edi,0
+je ednx
+jmp HTMLUpdater
+ednx:
+ret
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"libmysqlx.dll"+A7BB</Address>
+      <Comment>1
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"libmysqlx.dll"+A7C2</Address>
+      <Comment>2
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"libmysqlx.dll"+A7C9</Address>
+      <Comment>3
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"libmysqlx.dll"+A7D0</Address>
+      <Comment>4
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
